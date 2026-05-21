@@ -322,3 +322,43 @@ nav ul li a {
     color:#0b80f5;
 
 }
+
+.btn-cart {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.btn-cart:hover {
+    background-color: #d3d3d3; 
+    color: #000000;            
+}
+
+.btn-detail {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 12px;                  
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;            
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+
+.btn-detail:hover {
+    background-color: #ffffff;            
+    color: #D35400;                       
+    border: 1px solid #D35400;            
+}
